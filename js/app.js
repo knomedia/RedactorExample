@@ -1,5 +1,5 @@
 $(document).ready( function () {
-	$('#editor').redactor();
+	$('#editor').redactor({ fullscreen: true });
 });
 
 function setHTML( value ) {
